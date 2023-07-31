@@ -7,6 +7,15 @@ npm i
 npm run start
 ```
 
+## How to create fake account
+
+Copy from `.env.example` to `.env` file then set value for these variables:
+
+```shell
+REACT_APP_FAKE_USERNAME=any_value
+REACT_APP_FAKE_PASSWORD=any_value
+```
+
 ## Structure
 
 ```js
